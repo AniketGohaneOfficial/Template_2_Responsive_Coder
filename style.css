@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Color */
+.common_orange {
+    color: rgba(248, 75, 43, 255);
+}
+
+.cement_color {
+    color: rgba(163, 173, 186, 255);
+}
+
+
+.nav_bar:after,
+.navbar_down:after,
+.common_mark:after,
+.marketing_div:after,
+.div_likes:after,
+.section_card_div:after,
+.project_img:after,
+.team_div_down .team_common:after,
+.blog_div_main .blog_div_down:after,
+.footer_div .footer_text:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 1519px;
+    margin: auto;
+}
+
+/* Section 1 - Navbar  */
+.nav_bar {
+    background-color: rgba(248, 75, 43, 255);
+    width: 100%;
+    padding: 13px 0px;
+    padding: 0px 110px;
+}
+
+.nav_left_con {
+    width: 80%;
+    float: left;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.nav_left_con i {
+    float: left;
+    line-height: 30px;
+    font-size: 19px;
+    padding-left: 15px;
+}
+
+.nav_left_con h1 {
+    float: left;
+    padding-left: 10px;
+}
+
+.nav_right_con {
+    width: 20%;
+    float: right;
+    color: white;
+    font-size: 28px;
+    padding-left: 40px;
+}
+
+.nav_right_con i {
+    margin-left: 15px
+}
+
+.navbar_down {
+    width: 100%;
+    padding: 10px 110px;
+}
+
+.logo_img_left {
+    width: 30%;
+    float: left;
+}
+
+.logo_img_left img {
+    width: 155px;
+    height: 80px;
+}
+
+.nav_2_right {
+    width: 70%;
+    float: right;
+    padding-top: 15px;
+    padding-left: 200px;
+}
+
+.nav_2_right h2 {
+    float: left;
+    font-size: 17px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.nav_2_right button {
+    height: 50px;
+    width: 150px;
+    background-color: rgba(248, 75, 43, 255);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+/* Section 2 - Main Image */
+
+.img_div {
+    background-image: url("images/happy-ambitious_Hr.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img_div {
+    padding: 400px 240px;
+}
+
+.img_div .img_data h4 {
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.img_div .img_data h2 {
+    font-size: 70px;
+    color: white;
+}
+
+.button_common {
+    height: 50px;
+    width: 150px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.img_div .img_data .btn1 {
+    color: white;
+    background-color: rgba(248, 75, 43, 255);
+}
+
+.img_div .img_data .btn2 {
+    margin-left: 20px;
+}
+
+.img_div .img_data button {
+    margin-top: 10px;
+}
+
+/* Section - 3 - Marketing */
+
+.marketing_div {
+    width: 100%;
+    padding: 80px 230px;
+}
+
+.mark_info_child {
+    width: 50%;
+    float: left;
+}
+
+.common_mark {
+    width: 100%;
+}
+
+.common_mark .mark_icon {
+    width: 20%;
+    float: left;
+
+
+}
+
+.common_mark .mark_icon i {
+    font-size: 60px;
+    background-color: rgba(248, 75, 43, 255);
+    margin-top: 25px;
+    padding: 13px;
+    color: white;
+    border-radius: 50%;
+}
+
+.common_mark .mark_info {
+    width: 80%;
+    float: right;
+}
+
+.common_mark .mark_info h1 {
+    margin-top: 23px;
+    letter-spacing: 0.7px;
+}
+
+.common_mark .mark_info p {
+    margin-top: 7px;
+    letter-spacing: 0.4px;
+}
+
+.mark_img_child {
+    width: 50%;
+    float: right;
+}
+
+.marketing_img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.marketing_img {
+    padding-left: 70px;
+    border: 3px solid white;
+}
+
+/* Section - 4 - Client Subscriber */
+
+.client_subscriber {
+    background-color: rgba(248, 75, 43, 255);
+}
+
+.client_subscriber .div_likes {
+    width: 100%;
+    padding: 100px 380px;
+    align-items: center;
+}
+
+.views_data {
+    width: 25%;
+    float: left;
+    color: white;
+}
+
+.views_data h1 {
+    font-size: 50px;
+}
+
+.views_data p {
+    font-size: 16px;
+}
+
+/* Section 5 - What We Do */
+
+.section_info {
+    margin: 70px 480px 50px 480px;
+
+}
+
+.section_info h3 {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+
+.section_info h1 {
+    font-size: 50px;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+
+.section_info p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.section_card_do {
+    margin: 0px 200px;
+    padding-bottom: 80px;
+}
+
+.section_card_div {
+    width: 100%;
+
+}
+
+.section_card_common {
+    width: 30%;
+    float: left;
+    text-align: center;  
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+    margin-left: 10px;
+}
+
+.section_card_common .icon {
+    background-color: rgba(248, 75, 43, 255);
+    margin: 0px 80px;
+    padding: 20px 0px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.section_card_common .icon i {
+    font-size: 50px;
+    color: white;
+}
+
+.section_card_common h1 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+}
+
+.section_card_common p {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* Section 6 - Successful_Project */
+
+.success_project {
+    background-color: rgba(248, 249, 251, 255);
+    padding: 85px 0px;
+}
+
+.success_project_up {
+    margin: 0px 490px;
+}
+
+.success_project_up .sec_info {
+    text-align: center;
+}
+
+.success_project_up .sec_info h3 {
+    font-size: 18px;
+}
+
+.success_project_up .sec_info h1 {
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.success_project_up .sec_info p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.success_project_down {
+    margin-top: 25px;
+}
+
+.success_project_down .project_img {
+    width: 100%;
+    height: 500px;
+}
+
+.success_project_down .project_img .img_1 {
+    width: 25%;
+    float: left;
+    margin: 10px;
+}
+
+.success_project_down .project_img .img_1 img {
+    width: 100%;
+}
+
+.success_project_down .project_img .img_2 {
+    width: 45%;
+    float: left;
+    margin: 10px;
+}
+
+.success_project_down .project_img .img_2 img {
+    width: 100%;
+}
+
+.success_project_down .loading {
+    text-align: center;
+}
+
+.success_project_down .loading i {
+    margin-left: 10px;
+}
+
+/* Section 7 - Team Members */
+
+.team_member .team_div_main {
+    margin: 80px 130px 90px 130px;
+}
+
+.team_div_main .team_div_up {
+    text-align: center;
+    margin: 0px 320px;
+}
+
+.team_div_main .team_div_up h4 {
+    font-size: 20px;
+}
+
+.team_div_main .team_div_up h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.team_div_main .team_div_up p {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.team_div_down .team_common {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.team_div_down .team_common .img_c {
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+}
+
+.team_div_down .team_common .img_c img {
+    width: 100%;
+}
+
+.team_div_down .team_common .img_c .img_owner_name {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+
+/* Section 8 - Ralph Edwards */
+
+.ralph_div_main {
+    background-image: url('images/serious-businesswoman1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 320px;
+    color: white;
+    text-align: center;
+}
+
+.ralph_div_main .ralph_img img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.ralph_div_main h2 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.ralph_div_main h6 {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.ralph_div_main p {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.ralph_div_main .star_rating {
+    margin-top: 22px;
+}
+
+.ralph_div_main .star_rating i {
+    margin-left: 10px;
+}
+
+.ralph_div_main .loading {
+    margin-top: 24px;
+}
+
+/* Section 9 - Blog Posts */
+
+.blog_div_main {
+    margin: 100px 135px 80px 135px;
+}
+
+.blog_div_main .blog_div_up {
+    text-align: center;
+    margin: 0px 340px;
+}
+
+.blog_div_down .common_div .img1_blog .img_in_data {
+    background-image: url('images/Blog_Post/modern-equipped.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 260px;
+}
+
+.blog_div_down .common_div .img2_blog .img_in_data {
+    background-image: url('images/Blog_Post/people-office-analyzing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 260px;
+}
+
+.blog_div_down .common_div .img3_blog .img_in_data {
+    background-image: url('images/Blog_Post/two-entrepreneurs-working.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 260px;
+}
+
+.blog_div_main .blog_div_up h4 {
+    font-size: 18px;
+}
+
+.blog_div_main .blog_div_up h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.blog_div_main .blog_div_up p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+.blog_div_main .blog_div_down {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.blog_div_main .blog_div_down .common_div {
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+}
+
+.blog_div_down .common_div .img_info h2 {
+    font-size: 17px;
+}
+
+.common_div .img_info {
+    margin: 40px 40px 60px 40px;
+}
+
+.blog_div_down .common_div .img_info h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.blog_div_down .common_div .img_info p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.img1_blog .img_in_data h2 {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    background-color: rgba(248, 75, 43, 255);
+    margin: 0px 250px 0px 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img2_blog .img_in_data h2 {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    background-color: rgba(248, 75, 43, 255);
+    margin: 0px 220px 0px 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img3_blog .img_in_data h2 {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    background-color: rgba(248, 75, 43, 255);
+    margin: 0px 250px 0px 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img_in_data .div_img_head {
+    padding-top: 15px;
+}
+
+/* Section 10 - Footer */
+
+.footer_div {
+    background-image: url('images/2serious-businesswoman1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 450px 60px 450px;
+    color: white;
+}
+
+.footer_div .logo_img_footer img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.footer_div .logo_img_footer {
+    height: 60px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.footer_div .paragraph {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}
+
+.footer_div .icon_footer {
+    margin-top: 20px;
+}
+
+.footer_div .icon_footer i {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.footer_div .footer_text {
+    font-size: 17px;
+    width: 100%;
+    margin: 25px 0px 0px 170px;
+}
+
+.footer_div .footer_text p {
+    width: 15%;
+    float: left;        
+}
+
+.footer_div .footer_copyright .second_last_line {
+    font-size: 17px;
+    margin-top: 100px;
+}
+
+
+.footer_div .footer_copyright .last_line {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
