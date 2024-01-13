@@ -5,26 +5,30 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#hidden_navbar_down2 {
+    display: none;
+}
+
 /* Color */
 .common_orange {
-    color: rgba(248, 75, 43, 255);
+    color: rgba(248, 75, 43, 255);         
 }
 
 .cement_color {
-    color: rgba(163, 173, 186, 255);
+    color: rgba(163, 173, 186, 255);    
 }
-
 
 .nav_bar:after,
 .navbar_down:after,
 .common_mark:after,
-.marketing_div:after,
-.div_likes:after,
-.section_card_div:after,
-.project_img:after,
-.team_div_down .team_common:after,
-.blog_div_main .blog_div_down:after,
-.footer_div .footer_text:after {
+.marketing_div:after,  
+.div_likes:after,   
+.section_card_div:after,    
+.project_img:after,   
+.team_div_down .team_common:after,   
+.blog_div_main .blog_div_down:after,     
+.navbar_down_responsive .navbar_main_responsive:after,         
+.nav_2_righ_responsive:after  {   
     content: "";
     clear: both;
     display: table;
@@ -35,7 +39,9 @@
     margin: auto;
 }
 
+
 /* Section 1 - Navbar  */
+
 .nav_bar {
     background-color: rgba(248, 75, 43, 255);
     width: 100%;
@@ -114,6 +120,7 @@
     font-size: 17px;
 }
 
+
 /* Section 2 - Main Image */
 
 .img_div {
@@ -140,7 +147,7 @@
 }
 
 .button_common {
-    height: 50px;
+    height: 50px;    
     width: 150px;
     border-style: none;
     border-radius: 5px;
@@ -156,9 +163,10 @@
     margin-left: 20px;
 }
 
-.img_div .img_data button {
-    margin-top: 10px;
+.img_div .img_data button {           
+    margin-top: 40px;           
 }
+
 
 /* Section - 3 - Marketing */
 
@@ -223,6 +231,7 @@
     border: 3px solid white;
 }
 
+
 /* Section - 4 - Client Subscriber */
 
 .client_subscriber {
@@ -249,11 +258,11 @@
     font-size: 16px;
 }
 
+
 /* Section 5 - What We Do */
 
 .section_info {
     margin: 70px 480px 50px 480px;
-
 }
 
 .section_info h3 {
@@ -286,19 +295,19 @@
 .section_card_common {
     width: 30%;
     float: left;
-    text-align: center;  
+    text-align: center;
     margin: 10px;
     padding: 30px;
-    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06); 
     margin-left: 10px;
 }
 
-.section_card_common .icon {
-    background-color: rgba(248, 75, 43, 255);
-    margin: 0px 80px;
-    padding: 20px 0px;
-    border-radius: 50%;
-    margin-top: 10px;
+.section_card_common .icon {         
+    background-color: rgba(248, 75, 43, 255);            
+    margin: 0px 80px;          
+    padding: 33px 0px;         
+    border-radius: 50%;          
+    margin-top: 10px;          
 }
 
 .section_card_common .icon i {
@@ -316,6 +325,7 @@
     font-size: 16px;
     margin-top: 30px;
 }
+
 
 /* Section 6 - Successful_Project */
 
@@ -383,6 +393,7 @@
     margin-left: 10px;
 }
 
+
 /* Section 7 - Team Members */
 
 .team_member .team_div_main {
@@ -430,6 +441,7 @@
     letter-spacing: 0.8px;
 }
 
+
 /* Section 8 - Ralph Edwards */
 
 .ralph_div_main {
@@ -474,6 +486,7 @@
 .ralph_div_main .loading {
     margin-top: 24px;
 }
+
 
 /* Section 9 - Blog Posts */
 
@@ -595,6 +608,7 @@
     padding-top: 15px;
 }
 
+
 /* Section 10 - Footer */
 
 .footer_div {
@@ -624,6 +638,11 @@
     margin-top: 20px;
 }
 
+.footer_div .footer_text {
+    text-align: center;
+    margin-top: 25px;
+}
+
 .footer_div .icon_footer {
     margin-top: 20px;
 }
@@ -631,17 +650,6 @@
 .footer_div .icon_footer i {
     font-size: 40px;
     margin-left: 15px;
-}
-
-.footer_div .footer_text {
-    font-size: 17px;
-    width: 100%;
-    margin: 25px 0px 0px 170px;
-}
-
-.footer_div .footer_text p {
-    width: 15%;
-    float: left;        
 }
 
 .footer_div .footer_copyright .second_last_line {
@@ -655,3 +663,316 @@
     margin-top: 10px;
 }
 
+
+
+/* Media Queries for 480 pixels */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    /* Section 1 - Navbar  */
+
+    #hidden_navbar_down1 {    
+        display: none;      
+    }
+
+    #hidden_navbar_down2 {
+        display: block;  
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+                                  
+    .nav_bar {
+        padding: 5px;       
+    }                                      
+
+    .nav_bar .nav_left_con {
+        width: 100%;
+        font-size: 10px;     
+    }
+
+    .nav_bar .nav_left_con h1 {
+        margin-top: 5px;
+    }
+
+    .nav_left_con .nav_icon {
+        margin-left: 0px; 
+    }
+
+    .nav_bar .nav_right_con {
+        width: 100%;
+        float: left;
+        margin: 0px 0px 0px 40px;
+    }
+
+    /* Hidden Alternate Div    */
+
+    .navbar_down_responsive .navbar_main_responsive {      
+        width: 100%; 
+        margin: 5px auto;      
+    }
+
+    .navbar_down_responsive .navbar_main_responsive .logo_img_left_responsive {    
+        width: 40%;   
+        float: left;   
+    }
+   
+    .navbar_down_responsive .navbar_main_responsive .logo_img_left_responsive img {    
+        width: 100%;       
+    }
+
+    .navbar_main_responsive .resp_btn {
+        width: 40%;
+        float: left;
+        margin: 15px 0px 0px 60px;
+        text-align: right;   
+    }
+
+    .navbar_main_responsive button {
+        color: white;
+        background-color: rgba(248, 75, 43, 255);
+        border-style: none;
+        width: 90px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .nav_2_righ_responsive {
+        width: 100%;
+    }
+
+    .nav_2_righ_responsive h2 {
+        float: left;   
+        font-size: 12px;
+        padding: 0px 0px 0px 10px;    
+    }
+
+
+    /* Section 2 - Hero Image */
+
+    .img_div {
+        padding: 50px 20px;
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .img_div .img_data h4 {
+        font-size: 12px;
+        color: white;
+        letter-spacing: 0.5px;
+        margin: 20px 0px;
+    }
+
+    .img_div .img_data h2 {
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+
+    .img_div .img_data .btn2 {
+        margin-left: 23px;
+    }
+
+    .img_div .img_data button {
+        margin: 20px 0px;
+        height: 30px;
+        width: 120px;
+        border-style: none;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    /* Section - 3 - Marketing */
+
+    .marketing_div {
+        padding: 40px 20px;
+    }
+
+    .mark_info_child {
+        width: 100%;
+    }
+
+    .common_mark {
+        padding-right: 10px;
+    }
+
+    .common_mark .mark_icon i {
+        font-size: 30px;
+    }
+
+    .common_mark .mark_info h1 {
+        margin: 17px 0px 5px 15px;
+    }
+
+    .common_mark .mark_info p {
+        text-align: justify;
+        margin: 0px;
+    }
+
+    .mark_img_child {
+        width: 100%;
+        margin: 40px 20px 20px 20px;
+    }
+
+    .marketing_img img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .marketing_img {
+        padding: auto;
+        border: 3px solid white;
+    }
+
+    /* Section 4 - Client Subscriber */
+
+    .client_subscriber .div_likes {
+        width: 100%;
+        padding: 50px 100px;
+    }
+
+    .views_data {
+        width: 100%;
+        text-align: center;
+    }
+
+    .views_data h1 {
+        font-size: 40px;
+    }
+
+    .views_data p {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    /* Section 5 - What We Do */
+
+    .section_info {
+        margin: 40px;
+    }
+
+    .section_info h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .section_info h1 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .section_info p {
+        font-size: 18px;
+    }
+
+    .section_card_do {
+        margin: 0px auto;
+        padding-bottom: 20px;
+    }
+
+    .section_card_common {
+        width: 100%;
+        margin: 0px;
+        padding: 40px;
+        box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+    }
+
+    .section_card_common h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .section_card_common p {
+        margin-top: 20px;
+    }
+
+    /* Section 6 - Successful_Project */
+
+    .success_project {
+        background-color: rgba(248, 249, 251, 255);
+        padding: 20px 10px;
+    }
+
+    .success_project_up {
+        margin: 0px 70px;
+    }
+
+    .success_project_up .sec_info p {
+        margin-top: 10px;
+    }
+
+    .success_project_down {
+        margin-top: 30px;
+    }
+
+    .success_project_down .project_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .success_project_down .project_img .img_1 {
+        width: 21%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .success_project_down .project_img .img_2 {
+        width: 40%;
+        height: auto;
+        margin: 10px;
+    }
+
+    /* Section 7 - Team Members */
+
+    .team_member .team_div_main {
+        margin: 40px;
+    }
+
+    .team_div_main .team_div_up {
+        margin: 0px;
+    }
+
+    .team_div_down .team_common {
+        padding-bottom: 50px;
+    }
+
+    .team_div_down .team_common .img_c {
+        margin-left: 0px;
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    /* Section 8 - Ralph Edwards */
+
+    .ralph_div_main {
+        padding: 70px 30px;
+        color: white;
+        text-align: center;
+    }
+
+    /* Section 9 - Blog Posts */
+
+    .blog_div_main {
+        margin: 40px 20px;
+        padding: 0px 20px;
+    }
+
+    .blog_div_main .blog_div_up {
+        margin: 0px 30px;
+    }
+
+    .blog_div_main .blog_div_down .common_div {
+        width: 100%;
+        margin-left: 0px;
+        padding: 20px 0px;
+    }
+
+    /* Section 10 - Footer */
+
+    .footer_div {
+        padding: 80px 40px;
+    }
+
+}

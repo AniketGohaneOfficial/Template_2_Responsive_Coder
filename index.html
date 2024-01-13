@@ -17,14 +17,20 @@
 </head>
 
 <body>
+
     <!-- Section 1 - Navbar -->
     <section class="container">
+
         <div class="nav_bar">
             <div class="nav_left_con">
-                <i class="fa-solid fa-envelope"></i>
-                <h1> info@example.com </h1>
-                <i class="fa-solid fa-phone"></i>
-                <h1>123 456-7890 </h1>
+                <div class="head_left_left">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h1> info@example.com </h1>
+                </div>
+                <div class="head_left_right">
+                    <i class=" nav_icon fa-solid fa-phone"></i>
+                    <h1>123 456-7890 </h1>
+                </div>
             </div>
             <div class="nav_right_con">
                 <i class="fa-brands fa-facebook"></i>
@@ -33,7 +39,8 @@
                 <i class="fa-brands fa-linkedin"></i>
             </div>
         </div>
-        <div class="navbar_down">
+
+        <div class="navbar_down" id="hidden_navbar_down1">
             <div class="logo_img_left">
                 <img src="images/Proxima_Logo.jpg" alt="Proxima Logo">
             </div>
@@ -48,6 +55,28 @@
                 <button> Contact </button>
             </div>
         </div>
+
+        <!-- For Web Responsive - Hidden Alternate Div  -->
+        <div class="navbar_down_responsive" id="hidden_navbar_down2">
+            <div class="navbar_main_responsive">
+                <div class="logo_img_left_responsive">
+                    <img src="images/Proxima_Logo.jpg" alt="Proxima Logo">
+                </div>   
+                <div class="resp_btn">
+                    <button> Contact </button>    
+                </div>
+            </div>   
+            <div class="nav_2_righ_responsive">
+                <h2 class="common_orange">Home</h2>
+                <h2>About</h2>
+                <h2>Service</h2>
+                <h2>Portfolio</h2>
+                <h2>Team</h2>
+                <h2>Reviews</h2>
+                <h2>Blog</h2>
+            </div>
+        </div>
+
     </section>
 
     <!-- Section 2 - Hero Image  -->
@@ -368,11 +397,12 @@
     <section class="footer container">
         <div class="footer_div">
 
-            <div class="logo_img_footer" >
+            <div class="logo_img_footer">
                 <img src="images/Proxima_Logo.jpg" alt="Proxima Logo">
             </div>
 
-            <p class="paragraph"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            <p class="paragraph"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                piece of classical
                 Latin literature from </p>
 
             <div class="icon_footer">
@@ -383,9 +413,7 @@
             </div>
 
             <div class="footer_text">
-                <p>privacy</p>
-                <p>terms</p>
-                <p>desclaimer</p>
+                <pre> privacy    terms    desclaimer</pre>
             </div>
 
             <div class="footer_copyright">
@@ -395,7 +423,6 @@
 
         </div>
     </section>
-
 
 </body>
 
